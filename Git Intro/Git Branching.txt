@@ -1,0 +1,94 @@
+# Git branching
+commit 1 commit 2 commit 3 commit 4 ( master branch)
+(feature branch) commit 1 commit2  it wwon't change the master branch it could be stay there
+hot fix branch
+
+## git branch 
+## q to quit
+git checkout -b (details)feature--readme-instrutions
+* means which branch that you're in
+git checkout master 
+git checkout feature-readme-instrutions 
+
+## change in local machine  M (means modifiy)
+
+## check it agian
+git status
+## save
+git add reademe.md
+git commit -m "updated reademe"
+git checkout master
+
+## merge those two branch together
+git merg
+# show the difference before merge
+git diff (name of branch) 
+git diff feature-readme-instrution 
+to show which file is changed
+
+git status  # to check
+git  push  # which branch that you're going to merge
+git push  -- set - upstream origin feature--readme-instrutions 
+or git push -u ( instead of set - upstream)
+
+#pull requests
+# make a PR at same branch
+base branch to check the arrow. 
+
+# get the branch to local machine 
+git checkout master
+# change with the master branch
+git pull origin master
+
+# delete the branch 
+git branch -d feature--readme-instrutions
+git branch
+
+# merge conflicts
+git checkout -b
+#quick check
+git diff
+git add ( filename)
+
+# -am ( add and modifiy which has already have had) 
+git commit -am "testfiles" 
+git branch
+git checkout quick-test
+
+# stashing 
+ 
+# git checkout quick-test
+git diff master
+git merge master
+
+#fix merge conflicts
+
+git diff 
+git commit -am " updatedwith master" 
+
+
+# undoing git
+git reset
+git reset (your file)
+
+undoing files
+
+git reset
+git reset HEAD ~1 ( HEAD ~1 last commit) 
+git diff
+
+git log  # to check commits
+
+git reset (hasing your code)
+
+git reset --hard ( change all the codes and completed be removed)
+
+forking 
+# completed copy all the repo from others 
+
+# you can completed control the branch. 
+# pull requests
+
+## clean all the repo
+pull requests
+dev . master. stage.   crud opeartions 

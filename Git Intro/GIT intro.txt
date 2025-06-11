@@ -1,0 +1,52 @@
+Clone-> bring a repository that its hosted somewhere like github into a folder on your local machine 
+add-> track you file and change in git
+commit -> save your files in git 
+push-> upload git
+pull-> download changes from remote repo to your local machine 
+
+#in reademe md 
+code commits to see the history of change and updated.
+#in local machine to check the git
+#homebrew for machine
+~git--version
+
+#get the codeedit 
+
+# in local machine  terminal  
+-git clone under code copy SSH or HTTPS address
+- git  cd name of the folder(Demo) 
+-la ( list everything in the floders)
+
+-git status
+# to track the files in your local machine -git add .(all)
+-git add index.python
+# save change - git  commit -m " added index.python" -m " some description" 
+first -m is title , second -m is change some description
+# update online -git push 
+# SSH  keys 
+~ ssh -keygen -t rsa -b (number) -C("your email address" is the same as your login into your git)
+
+# searching key is genereated
+~ls | grep testkey
+eg: testkey ( private key) using the private key to provie github
+eg: testkey.pub ( # pub stand for public)
+# ~ cat testkey.pub
+# ~pbcopy <~/.ssh  copy the key 
+
+
+### git push
+-git push origin master
+# origin is push for , master is the branch 
+
+## in local 
+cd demo-repo2
+git init 
+git status
+git add reademe.cd
+git commit -m " create reademe" -m description
+
+in git web create empty repository-> now back to local 
+git remote add origin git@github.com:colinwolfe8/demo2.git(your git remote) 
+git remote -v
+git push origin master or git push -u 
+
